@@ -1,0 +1,13 @@
+# AWS / SSH
+*.pem
+*.ppk
+.aws/
+credentials
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
