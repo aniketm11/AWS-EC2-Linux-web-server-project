@@ -372,10 +372,10 @@ The EC2 instance was running and passed its status checks. The Security Group co
 
 ```bash
 # Update packages
-sudo dnf update -y
+sudo yum update -y
 
 # Install Nginx
-sudo dnf install nginx -y
+sudo yum install nginx -y
 
 # Start Nginx
 sudo systemctl start nginx
